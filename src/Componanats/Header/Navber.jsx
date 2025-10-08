@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import { FaGithub, FaBars, FaTimes } from "react-icons/fa";
+import { NavLink } from 'react-router';
 const Navber = () => {
    const [open, setOpen] = useState(false);
     return (
@@ -18,18 +19,38 @@ const Navber = () => {
 
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a
-            href="#"
-            className="text-purple-600 font-medium border-b-2 border-purple-600 pb-1"
-          >
-            Home
-          </a>
-          <a href="#" className="text-gray-700 hover:text-purple-600">
-            Apps
-          </a>
-          <a href="#" className="text-gray-700 hover:text-purple-600">
-            Installation
-          </a>
+          <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+            : "text-gray-700 hover:text-purple-600"
+        }
+      >
+        Home
+      </NavLink>
+
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          isActive
+            ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+            : "text-gray-700 hover:text-purple-600"
+        }
+      >
+        Apps
+      </NavLink>
+
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          isActive
+            ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+            : "text-gray-700 hover:text-purple-600"
+        }
+      >
+        Installation
+      </NavLink>
         </nav>
 
         
@@ -54,18 +75,38 @@ const Navber = () => {
 
       {open && (
         <div className="md:hidden bg-white border-t border-gray-200 px-4 py-3 flex flex-col space-y-3">
-          <a
-            href="#"
-            className="text-purple-600 font-medium border-b-2 border-purple-600 w-fit"
-          >
-            Home
-          </a>
-          <a href="#" className="text-gray-700 hover:text-purple-600">
-            Apps
-          </a>
-          <a href="#" className="text-gray-700 hover:text-purple-600">
-            Installation
-          </a>
+          <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+            : "text-gray-700 hover:text-purple-600"
+        }
+      >
+        Home
+      </NavLink>
+
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          isActive
+            ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+            : "text-gray-700 hover:text-purple-600"
+        }
+      >
+        Apps
+      </NavLink>
+
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          isActive
+            ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+            : "text-gray-700 hover:text-purple-600"
+        }
+      >
+        Installation
+      </NavLink>
           <button className="flex items-center justify-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-md text-sm transition">
             <FaGithub />
             Contribute
