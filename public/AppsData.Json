@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
+    "title": "CatChat",
+    "companyName": "HappyPixel Studio",
+    "description": "CatChat transforms everyday conversations into fun and expressive experiences through adorable cat avatars, animated stickers, and playful reactions. Unlike ordinary messaging apps, CatChat focuses on emotional communication — letting you show how you feel with cute feline gestures and sounds. Each chat feels alive, thanks to charming animations and responsive emojis that make messaging enjoyable for all ages. \n\nThe app includes themed chat rooms, customizable cat characters, and sticker collections that evolve as you use the app more. You can sync conversations across devices, send photos or videos, and even create short animated stories with your cat avatar. CatChat’s clean and friendly interface ensures a relaxing chat experience that emphasizes positivity, fun, and creativity. Whether you’re connecting with close friends or joining global fan groups, CatChat keeps every conversation warm, cheerful, and full of personality.",
+    "size": 40,
+    "reviews": 18200,
+    "ratingAvg": 4.8,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 11170 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712029.png",
+    "title": "FitBuddy",
+    "companyName": "ActiveBear Labs",
+    "description": "FitBuddy is more than a fitness tracker — it’s your personal coach and motivator that helps you build healthy habits with joy. Designed for people of all fitness levels, FitBuddy combines activity tracking, progress visualization, and gamified challenges to make staying active rewarding. Whether you’re walking, running, or hitting the gym, the app automatically logs your workouts and celebrates your milestones with encouraging animations. \n\nFitBuddy offers personalized workout plans, detailed calorie tracking, and daily reminders to keep you consistent. You can compete with friends in step challenges, earn badges, and share achievements on social media. Its user interface is designed with bright, cheerful colors and minimal distractions, helping users focus on their progress. With insights into your sleep, heart rate, and mood, FitBuddy ensures that your fitness journey remains balanced and sustainable. Every small step counts — and FitBuddy is here to cheer you on every single one.",
+    "size": 47,
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 9350 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712031.png",
+    "title": "BrightNote",
+    "companyName": "JoyfulMind",
+    "description": "BrightNote brings organization and creativity together in one elegant workspace. It’s designed for students, professionals, and creators who want to capture ideas effortlessly. With a clean and colorful interface, BrightNote allows you to jot down notes, create to-do lists, and organize thoughts using tags, folders, and themes. You can add images, links, and sketches to make your notes visually inspiring. \n\nThe app automatically syncs across devices, ensuring your thoughts are accessible wherever you go. Advanced search and AI-powered suggestions help you rediscover past notes in seconds. BrightNote also includes focus timers and mood-based color themes that adapt to your productivity style. Whether you’re planning a project, journaling, or brainstorming new ideas, BrightNote gives you the tools to stay motivated and clear-minded. It’s not just a notes app — it’s your creative companion for a more thoughtful, organized life.",
+    "size": 35,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 6070 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712044.png",
+    "title": "TravelBug",
+    "companyName": "FlyHigh Studio",
+    "description": "TravelBug turns your wanderlust into reality by helping you plan and explore unforgettable trips. From interactive world maps to smart itinerary planning, this app makes travel easier, more organized, and more exciting. It provides recommendations for local attractions, restaurants, and cultural events, customized to your preferences and travel history. \n\nYou can collaborate with friends to plan group trips, split budgets, and track expenses. The built-in journal lets you document memories with photos, notes, and locations — perfect for sharing later. TravelBug’s minimalist design emphasizes exploration without distraction, while offline maps keep you prepared wherever you go. Whether you’re traveling solo or with friends, TravelBug ensures every journey feels effortless, enjoyable, and inspiring. It’s not just a travel planner — it’s your digital travel buddy that brings every adventure closer to home.",
+    "size": 80,
+    "reviews": 11500,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 7160 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.iconscout.com/icon/premium/png-512-thumb/graphic-design-icon-svg-download-png-9392495.png?f=webp&w=256",
+    "title": "Gourmet",
+    "companyName": "ChefJoy",
+    "description": "Gourmet is a beautifully designed recipe app that makes cooking simple, inspiring, and fun. Whether you’re a beginner or a food enthusiast, Gourmet brings a world of delicious recipes to your kitchen. With step-by-step video instructions and real-time cooking timers, it ensures your dishes come out perfect every time. \n\nYou can filter recipes by cuisine, dietary needs, or available ingredients. The app also generates personalized meal plans and shopping lists, saving time and reducing food waste. Each recipe features vibrant visuals, chef tips, and nutritional information. The community section allows users to share their creations and exchange ideas. With Gourmet, cooking becomes a joyful experience — blending creativity, health, and flavor. It’s your digital cookbook, mentor, and inspiration, all rolled into one.",
+    "size": 80,
+    "reviews": 9400,
+    "ratingAvg": 4.6,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712053.png",
+    "title": "PlayPal",
+    "companyName": "FunVerse Games",
+    "description": "PlayPal brings gamers together through a vibrant social platform filled with quick mini-games, tournaments, and community challenges. It’s a space where casual players and competitive gamers can meet, play, and have fun together. The app includes a wide selection of bite-sized games — from puzzles and trivia to arcade adventures — that you can enjoy solo or in real-time multiplayer mode. \n\nLeaderboards, achievements, and seasonal events keep the excitement going. You can chat with friends, form teams, and earn rewards as you level up. The app’s interface is lively and intuitive, focusing on engagement and friendly competition. With built-in streaming tools and voice chat options, PlayPal blurs the line between play and community. Whether you’re taking a short break or spending the evening gaming, PlayPal makes every moment interactive, social, and full of fun.",
+    "size": 60,
+    "reviews": 12300,
+    "ratingAvg": 4.4,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1020 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 7260 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712055.png",
+    "title": "BookWorm",
+    "companyName": "ReadEase",
+    "description": "BookWorm redefines reading for the digital age. It’s a cozy, intelligent bookshelf that helps you organize, track, and enjoy your reading journey. You can log your books, set reading goals, and join community challenges to stay motivated. BookWorm recommends personalized titles based on your reading habits and preferences, helping you discover authors and genres you might never have found. \n\nThe app includes elegant reading statistics, mood tracking, and customizable themes for a truly personal experience. You can annotate, highlight, and share your favorite quotes with friends or book clubs. BookWorm’s clean design mimics the warmth of a real library, creating a relaxing atmosphere for book lovers. Whether you read for study, growth, or pleasure, BookWorm keeps your literary world organized, inspiring, and beautifully designed.",
+    "size": 55,
+    "reviews": 13600,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 960 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 9090 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712064.png",
+    "title": "ShopEasy",
+    "companyName": "HappyCart Co.",
+    "description": "ShopEasy reimagines online shopping with a blend of simplicity, personalization, and fun. It curates products from trusted brands and small creators, offering tailored recommendations that match your style. With intuitive search, smart filters, and a clean layout, browsing becomes effortless and enjoyable. \n\nThe app includes wishlist syncing, price tracking, and exclusive deals for loyal shoppers. You can save favorite items, compare prices, and get instant alerts when discounts appear. ShopEasy’s checkout process is fast and secure, supporting multiple payment options. Its colorful yet minimal interface brings joy to everyday shopping, while eco-friendly packaging options promote conscious consumption. Whether you’re buying essentials or exploring new finds, ShopEasy makes the experience smooth, reliable, and delightfully human-centered.",
+    "size": 45,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4730 }
+    ]
+  }
+]
