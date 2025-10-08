@@ -42,7 +42,7 @@ const Navber = () => {
       </NavLink>
 
       <NavLink
-        to="/installation"
+        to="/Installedapps"
         className={({ isActive }) =>
           isActive
             ? "text-purple-600 border-b-2 border-purple-600 pb-1"
@@ -98,7 +98,7 @@ const Navber = () => {
       </NavLink>
 
       <NavLink
-        to="/installation"
+        to="/Installedapps"
         className={({ isActive }) =>
           isActive
             ? "text-purple-600 border-b-2 border-purple-600 pb-1"

@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Apppage = ({singleapppage}) => {
       const {downloads, ratingAvg,title,id, image,ratings} = singleapppage
     return (
+        < Link to={`/Installation/${id}`}>
          <div>
          <div className="card bg-base-100 shadow-lg hover:shadow-2xl hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out w-full max-w-[425px] mx-auto cursor-pointer">
   <figure className="overflow-hidden rounded-t-2xl">
@@ -32,6 +34,7 @@ const Apppage = ({singleapppage}) => {
 </div>
 
     </div>
+        </Link>
     );
 };
 

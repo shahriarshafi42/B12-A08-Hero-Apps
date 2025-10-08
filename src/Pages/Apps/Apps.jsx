@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import App from '../App/App';
+import { Link } from 'react-router';
 
 const Apps = ({data}) => {
     return (
@@ -13,7 +14,9 @@ const Apps = ({data}) => {
              }
           </div>
            </Suspense>
+           <Link to={'/apps'}>
            <button className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-indigo-500 text-white px-4 py-2 rounded-sm text-sm transition cursor-pointer flex mx-auto mt-4  ">Show All </button>
+           </Link>
             
         </div>
     );
