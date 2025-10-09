@@ -58,8 +58,9 @@ const Apppages = () => {
       <Apppage key={index} singleapppage={singleapppage} />
     ))
   ) : (
-    <div className="col-span-full text-center text-7xl text-gray-500 font-bold  p-25 ">
+    <div className="col-span-full text-center text-5xl text-gray-500 font-bold  p-2 ">
       No apps Found
+      <img className='flex mx-auto mt-5' src="App-Error.png" alt="" />
      
     </div>
     

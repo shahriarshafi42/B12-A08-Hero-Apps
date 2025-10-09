@@ -19,7 +19,7 @@ const ErrorPage = () => {
           The page you are looking for is not available.
         </p>
         <Link to={'/'}>
-        <button className="mt-6 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-md text-sm transition cursor-pointer">
+        <button className="mt-6 bg-purple-600 hover:bg-purple-700 text-white px-8 py-2 rounded-md text-sm transition cursor-pointer">
           Go Back!
         </button>
         </Link>

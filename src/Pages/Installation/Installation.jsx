@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaRegStar } from 'react-icons/fa';
 import { IoCodeDownloadSharp } from 'react-icons/io5';
 import { useLoaderData, useParams } from 'react-router';
-import { Bar, BarChart, CartesianGrid, LabelList, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
 import { addtostoreDB } from '../../Utility/addToDB';
 import { MdReviews } from 'react-icons/md';
 import { Bounce, ToastContainer, toast } from 'react-toastify';
@@ -52,7 +52,7 @@ const Installation = () => {
     return (
         <div className='max-w-7xl mx-auto '>
             <div className="flex flex-wrap items-center gap-15 p-10">
-                <img src={image} alt="App Icon" className="w-100 h-100" />
+                <img src={image} alt="App Icon" className="w-80 h-80" />
                 <div>
                     <div>
                         <h2 className="text-2xl font-semibold">{title}</h2>
@@ -95,7 +95,7 @@ const Installation = () => {
                 <div>
                     <BarChart
                         layout="vertical"
-                        width={1800}
+                        width={1500}
                         height={400}
                         data={ratingsData}
 

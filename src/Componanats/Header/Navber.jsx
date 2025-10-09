@@ -6,7 +6,7 @@ const Navber = () => {
    const [open, setOpen] = useState(false);
     return (
        <header className="bg-white border-b border-gray-200 shadow-sm">
-  <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3 md:py-4">
+  <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3 md:py-4 font-semibold">
     <NavLink to={'/'}>
       <div className="flex items-center space-x-2">
       <img

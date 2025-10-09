@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Navber from '../../Componanats/Header/Navber';
 import { Outlet } from 'react-router';
 import Footer from '../../Componanats/Footter/Footer';
+
 
 
 const Root = () => {
@@ -9,7 +10,7 @@ const Root = () => {
         <div>
             <Navber></Navber>
             
-            <Outlet></Outlet>
+         <Outlet></Outlet>
             <Footer></Footer>
         </div>
     );

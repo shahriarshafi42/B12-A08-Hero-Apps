@@ -10,6 +10,7 @@ import Spinner from '../Componanats/Spinner/Spinner';
 
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -44,7 +45,7 @@ export const router = createBrowserRouter([
         Component: Installation,
 
       },
-    
+     
     ]
   },
 ]);
