@@ -1,26 +1,25 @@
-const getStoredapp =()=>{
-    const storeappSTR =localStorage.getItem('applist')
+const getStoredapp = () => {
+  const storeappSTR = localStorage.getItem('applist');
+  if (storeappSTR) {
+    return JSON.parse(storeappSTR);
+  } else {
+    return [];
+  }
+};
 
-    if (storeappSTR) {
-        const storedappDta = JSON.parse(storeappSTR)
-        return storedappDta
-    }
-    else{
-        return []
-    }
-}
+const addtostoreDB = (id) => {
+  const storedappDta = getStoredapp();
+  const idStr = String(id); 
+  if (!storedappDta.includes(idStr)) {
+    storedappDta.push(idStr);
+    localStorage.setItem('applist', JSON.stringify(storedappDta));
+  }
+};
 
-const addtostoreDB =(id)=>{
-    const storedappDta = getStoredapp()
-    if (storedappDta.includes(id)) {
-        console.log('file exisit');
-        
-    } else {
-        storedappDta.push(id)
-        const data = JSON.stringify(storedappDta)
-        localStorage.setItem('applist', data)
-        
-    }
-}
+const removeFromStoreDB = (id) => {
+  const storedappDta = getStoredapp();
+  const updatedAppList = storedappDta.filter(appId => String(appId) !== String(id));
+  localStorage.setItem('applist', JSON.stringify(updatedAppList));
+};
 
-export {addtostoreDB, getStoredapp}
+export { addtostoreDB, getStoredapp, removeFromStoreDB };
