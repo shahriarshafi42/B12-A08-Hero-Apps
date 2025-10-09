@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
+import { NavLink } from 'react-router';
 
 const Bannar = () => {
     return (
-       <section className="w-full bg-white text-center">
+       <section className="w-full bg-white text-center ">
     
-      <div className="max-w-6xl mx-auto px-6 pt-20">
+      <div className="max-w-6xl mx-auto px-6 pt-20 ">
         <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 ">
           We Build  <br /><span className="text-purple-600">Productive</span> Apps
         </h2>
@@ -17,12 +18,16 @@ const Bannar = () => {
 
        
         <div className="flex justify-center gap-4 mb-12">
-          <button className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-5 py-2 rounded-lg transition cursor-pointer">
+         <NavLink to={'https://play.google.com/store/games?hl=en&pli=1'}>
+           <button className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-5 py-2 rounded-lg transition cursor-pointer">
             <FaGooglePlay className="text-lg" /> Google Play
           </button>
-          <button className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-5 py-2 rounded-lg transition cursor-pointer">
+         </NavLink>
+          <NavLink to={'https://www.apple.com/app-store/'}>
+            <button className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-5 py-2 rounded-lg transition cursor-pointer">
             <FaApple className="text-lg text-purple-600 " /> App Store
           </button>
+          </NavLink>
         </div>
 
        

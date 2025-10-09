@@ -13,7 +13,8 @@ const getStoredapp =()=>{
 const addtostoreDB =(id)=>{
     const storedappDta = getStoredapp()
     if (storedappDta.includes(id)) {
-        alert('id already exist')
+        console.log('file exisit');
+        
     } else {
         storedappDta.push(id)
         const data = JSON.stringify(storedappDta)

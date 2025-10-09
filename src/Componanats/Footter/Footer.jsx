@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
     return (
        <footer className="bg-[#011a2c] text-gray-300 py-6 px-5">
-      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-start border-b border-gray-600 pb-4">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-start border-b border-gray-600 pb-4 ">
        
         <div className="flex items-center mb-4 sm:mb-0">
           <img

@@ -4,10 +4,10 @@ import { IoCodeDownloadSharp } from 'react-icons/io5';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, LabelList, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { addtostoreDB } from '../../Utility/addToDB';
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+import { MdReviews } from 'react-icons/md';
+import { Bounce, ToastContainer, toast } from 'react-toastify';
 
-const MySwal = withReactContent(Swal)
+
 
 const Installation = () => {
     const { id } = useParams()
@@ -34,20 +34,23 @@ const Installation = () => {
         addtostoreDB(id)
         setIsInstalled(true)
 
-        MySwal.fire({
-  title: "Good job!",
-  text: "Your app insatalled suscfully!",
-  icon: "success"
-});
+        toast.success(' "app successfully installed"!', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            transition: Bounce,
+        });
+
 
     }
 
-
-
-
-
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto '>
             <div className="flex flex-wrap items-center gap-15 p-10">
                 <img src={image} alt="App Icon" className="w-100 h-100" />
                 <div>
@@ -61,15 +64,15 @@ const Installation = () => {
                     <div className="flex flex-col items-center gap-10 mt-6  ">
                         <div className='flex gap-5 '>
                             <div className="min-w-[100px]">
-                                <p className="text-3xl font-bold flex items-center gap-1.5">{downloads} <IoCodeDownloadSharp /> <img src="icon-downloads.png" alt="" /></p>
+                                <p className="text-3xl font-bold flex items-center gap-1.5 text-green-500">{downloads} <IoCodeDownloadSharp /> <img src="icon-downloads.png" alt="" /></p>
                                 <p className="text-sm text-gray-500">Downloads</p>
                             </div>
                             <div className="min-w-[100px]">
-                                <p className="text-3xl font-bold flex items-center gap-1.5">{ratingAvg} <FaRegStar /></p>
+                                <p className="text-3xl font-bold flex items-center gap-1.5 text-orange-400">{ratingAvg} <FaRegStar /></p>
                                 <p className="text-sm text-gray-500">Average Ratings</p>
                             </div>
                             <div className="min-w-[100px]">
-                                <p className="text-3xl font-bold">{reviews}</p>
+                                <p className="text-3xl font-bold flex items-center gap-1.5 text-purple-500">{reviews} <MdReviews /></p>
                                 <p className="text-sm text-gray-500">Total Reviews</p>
                             </div>
                         </div>
@@ -106,10 +109,22 @@ const Installation = () => {
                 </div>
             </div>
             <div className=' p-10'>
-                <h2 className='font-bold '>Description</h2>
+                <h2 className='font-bold text-3xl py-2 '>Description</h2>
                 <p>{description}</p>
             </div>
-
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick={false}
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+                transition={Bounce}
+            />
         </div>
     );
 };
