@@ -52,7 +52,7 @@ const Installation = () => {
     return (
         <div className='max-w-7xl mx-auto '>
             <div className="flex flex-wrap items-center gap-15 p-10">
-                <img src={image} alt="App Icon" className="w-80 h-80" />
+           <img src={image} alt="App Icon" className="w-80 h-80 shadow-xl rounded-lg p-8" />
                 <div>
                     <div>
                         <h2 className="text-2xl font-semibold">{title}</h2>
@@ -90,7 +90,7 @@ const Installation = () => {
                 </div>
             </div>
 
-            <div className="w-full  mt-10 bg-white p-4 rounded ">
+            <div className="w-full   bg-white p-10 rounded ">
                 <h3 className="text-3xl  mb-4 font-bold ">Ratings</h3>
                 <div>
                     <BarChart

@@ -18,11 +18,11 @@ const Installedapps = () => {
   const hanndlesort = (type) => {
     setSort(type);
     if (type === 'ascending') {
-      const sorted = [...applist].sort((a, b) => a.ratingAvg - b.ratingAvg);
+      const sorted = [...applist].sort((a, b) => a.downloads - b.downloads);
       setapplist(sorted);
     }
     if (type === 'descending') {
-      const sorted = [...applist].sort((a, b) => b.ratingAvg - a.ratingAvg);
+      const sorted = [...applist].sort((a, b) => b.downloads - a.downloads);
       setapplist(sorted);
     }
   };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaArrowAltCircleDown, FaStar } from 'react-icons/fa';
-import { removeFromStoreDB } from '../Utility/addToDB'; 
+import { removeFromStoreDB } from '../Utility/addToDB';
+
 
 const Installapp = ({ app, onUninstall }) => {
   const { id, title, image, downloads, ratingAvg } = app;
@@ -8,6 +9,7 @@ const Installapp = ({ app, onUninstall }) => {
   const handleUninstall = () => {
     removeFromStoreDB(id);
     onUninstall(id);
+
   };
 
   return (
@@ -27,14 +29,17 @@ const Installapp = ({ app, onUninstall }) => {
         </div>
       </div>
 
+
       <div className="w-full md:w-auto">
         <button
           onClick={handleUninstall}
-          className="w-full md:w-auto bg-red-600 text-white px-5 py-2 rounded-md font-medium hover:bg-red-700 transition duration-200"
+          className="w-full md:w-auto bg-red-600 text-white px-5 py-2 rounded-md font-medium hover:bg-red-700 transition duration-200 cursor-pointer"
         >
           Uninstall
         </button>
+
       </div>
+
     </div>
   );
 };
